@@ -8,6 +8,10 @@
   .row {
     display: flex;
 
+    &.justify-evenly {
+      justify-content: space-evenly;
+    }
+
     .col-3 {
       width: 33.33%;
     }
@@ -25,6 +29,7 @@
     }
   }
 
+  /* Ap Information */
   .app-info {
     margin: 12% 0px;
     padding-right: 60px;
@@ -45,5 +50,12 @@
         margin-right: 50px;
       }
     }
+  }
+
+  /* Features */
+  &.features {
+    margin: 20px 0px;
+    padding: 70px 60px;
+    background: #f7ffdc;
   }
 }
