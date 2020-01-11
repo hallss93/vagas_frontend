@@ -1,3 +1,27 @@
-.container{
-    margin: 30px 80px;
+.container {
+  margin: 30px 80px;
+
+  &.flex {
+    display: flex;
+  }
+
+  .row {
+    display: flex;
+
+    .col-3 {
+      width: 33.33%;
+    }
+
+    .col-4 {
+      width: 25%;
+    }
+
+    .col-6 {
+      width: 50%;
+    }
+
+    .col-12 {
+      width: 100%;
+    }
+  }
 }
