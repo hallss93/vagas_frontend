@@ -1,0 +1,13 @@
+.text-button {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+  margin-left: 15px;
+
+  &:first-child {
+    &:after {
+      content: '|';
+    }
+  }
+}

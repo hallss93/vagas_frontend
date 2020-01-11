@@ -1,6 +1,6 @@
 # vagas_frontend
 
-> A test for a frontend vacancy
+> My best Nuxt.js project
 
 ## Build Setup
 

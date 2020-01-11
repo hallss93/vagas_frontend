@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   mode: 'universal',
   /*
    ** Headers of the page
@@ -40,9 +40,7 @@ module.exports = {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/axios'
   ],
   /*
    ** Axios module configuration
