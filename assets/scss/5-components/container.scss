@@ -24,4 +24,26 @@
       width: 100%;
     }
   }
+
+  .app-info {
+    margin: 12% 0px;
+    padding-right: 60px;
+
+    h1.title {
+      margin: 20px 0px;
+      color: #454344;
+    }
+    h3.description {
+      font-size: 16px;
+      margin: 20px 0px 50px;
+      color: #4f4d4e;
+    }
+
+    .buttons-container {
+      img {
+        height: 50px;
+        margin-right: 50px;
+      }
+    }
+  }
 }
