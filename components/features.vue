@@ -1,7 +1,7 @@
 <template>
   <div class="container features">
     <div class="row justify-evenly">
-      <div v-for="(c, cIndex) in cards" :key="`card-${cIndex}`" class="col-4">
+      <div v-for="(c, cIndex) in cards" :key="`card-${cIndex}`" class="col-3">
         <card
           :alt="c.alt"
           :icon="c.icon"
