@@ -1,7 +1,7 @@
 #navbar {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: rem(40);
 
   .nav-container {
     width: 50%;
@@ -16,7 +16,7 @@
 
     img.logo {
       position: relative;
-      //left: 100px;
+      //left: rem(100);
     }
   }
 }

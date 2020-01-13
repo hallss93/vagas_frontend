@@ -2,19 +2,19 @@ $x: 0;
 
 @while $x < 55 {
   .m-#{$x} {
-    margin: #{$x}px;
+    margin: rem(#{$x});
   }
   .mt-#{$x} {
-    margin-top: #{$x}px;
+    margin-top: rem(#{$x});
   }
   .mr-#{$x} {
-    margin-right: #{$x}px;
+    margin-right: rem(#{$x});
   }
   .mb-#{$x} {
-    margin-bottom: #{$x}px;
+    margin-bottom: rem(#{$x});
   }
   .ml-#{$x} {
-    margin-left: #{$x}px;
+    margin-left: rem(#{$x});
   }
   $x: $x + 5;
 }
@@ -23,19 +23,19 @@ $y: 0;
 
 @while $y < 55 {
   .p-#{$y} {
-    padding: #{$y}px;
+    padding: rem(#{$y});
   }
   .pt-#{$y} {
-    padding-top: #{$y}px;
+    padding-top: rem(#{$y});
   }
   .pr-#{$y} {
-    padding-right: #{$y}px;
+    padding-right: rem(#{$y});
   }
   .pb-#{$y} {
-    padding-bottom: #{$y}px;
+    padding-bottom: rem(#{$y});
   }
   .pl-#{$y} {
-    padding-left: #{$y}px;
+    padding-left: rem(#{$y});
   }
   $y: $y + 5;
 }

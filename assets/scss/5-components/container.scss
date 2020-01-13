@@ -67,7 +67,7 @@
   }
 }
 .container {
-  margin: 30px 80px;
+  margin: rem(30) rem(80);
 
   &.flex {
     display: flex;
@@ -75,56 +75,56 @@
 
   /* Ap Information */
   .app-info {
-    margin: 12% 0px;
-    padding-right: 60px;
+    margin: 12% rem(0);
+    padding-right: rem(60);
 
     h1.title {
-      margin: 20px 0px;
+      margin: rem(20) rem(0);
       color: #454344;
     }
     h3.description {
-      font-size: 16px;
-      margin: 20px 0px 50px;
+      font-size: rem(16);
+      margin: rem(20) rem(0) rem(50);
       color: #4f4d4e;
     }
 
     .buttons-container {
       img {
-        height: 50px;
-        margin-right: 50px;
+        height: rem(50);
+        margin-right: rem(50);
       }
     }
   }
 
   /* Features */
   &.features {
-    margin: 20px 0px;
-    padding: 70px 60px;
+    margin: rem(20) rem(0);
+    padding: rem(70) rem(60);
     background: #f7ffdc;
   }
 }
 
 /* Container Video */
 .video-container {
-  padding: 80px 15%;
+  padding: rem(80) 15%;
   text-align: center;
 
   h1.title {
     font-weight: 800;
     color: #454344;
-    margin: 20px 0px;
+    margin: rem(20) rem(0);
   }
 
   h3.description {
     font-weight: 200;
-    font-size: 16px;
+    font-size: rem(16);
     color: #4f4d4e;
-    margin: 20px 0px;
+    margin: rem(20) rem(0);
   }
 }
 
 /* Container App Featured */
 
 .app-featured-container {
-  padding: 20px;
+  padding: rem(20);
 }
