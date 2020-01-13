@@ -1,0 +1,12 @@
+#Header {
+  &::before {
+    position: absolute;
+    content: '';
+    background: url('./../assets/imgs/arc1.png') no-repeat right;
+    right: 0;
+    top: 0;
+    width: rem(1000);
+    height: rem(350);
+    z-index: -1;
+  }
+}

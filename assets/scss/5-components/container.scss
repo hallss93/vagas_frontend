@@ -10,6 +10,10 @@
     justify-content: space-between;
   }
 
+  &.flex-reverse {
+    flex-direction: row-reverse;
+  }
+
   .col-1 {
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
@@ -83,6 +87,7 @@
     padding-right: rem(60);
 
     h1.title {
+      font-size: rem(32);
       margin: rem(20) rem(0);
       color: #454344;
     }
@@ -120,7 +125,6 @@
   }
 
   h3.description {
-    font-weight: 200;
     font-size: rem(16);
     color: #4f4d4e;
     margin: rem(20) rem(0);
@@ -134,16 +138,34 @@
 
   h1.title {
     text-align: center;
+    margin: rem(10) 0 rem(50) 0;
   }
 
   .feature {
     margin: rem(0) rem(0) rem(30) rem(0);
     h2.title {
+      color: #454344;
       margin: rem(10) rem(0);
     }
     h3.description {
+      color: #454344;
       font-weight: 200;
       margin: rem(10) rem(0);
     }
   }
+}
+
+h1.title {
+  font-size: rem(32);
+  color: #454344;
+  font-weight: 600;
+
+  &.medium {
+    font-size: rem(28);
+  }
+}
+
+h3.description {
+  color: #454344;
+  font-weight: 200;
 }

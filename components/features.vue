@@ -1,5 +1,5 @@
 <template>
-  <div class="container features">
+  <section class="container features">
     <div class="row justify-evenly">
       <div v-for="(c, cIndex) in cards" :key="`card-${cIndex}`" class="col-3">
         <card
@@ -10,7 +10,7 @@
         />
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

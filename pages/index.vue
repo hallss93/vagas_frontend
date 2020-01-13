@@ -1,12 +1,23 @@
 <template>
   <div>
-    <div class="container">
+    <header id="Header" class="container">
       <navbar />
-      <app-info />
-    </div>
+      <app-info
+        title="Título da página"
+        description="Informação curta e direta sobre o app divulgado na página com foco nas funcionalidades."
+      />
+    </header>
     <features />
     <video-player />
     <app-featured />
+    <section class="container">
+      <app-info
+        :reverse="true"
+        title="Título"
+        description="Informação curta e direta sobre o app divulgado na página com foco nas funcionalidades."
+      />
+    </section>
+    <products :products="storesAll" />
   </div>
 </template>
 
@@ -16,6 +27,7 @@ import AppInfo from '~/components/app-info.vue'
 import Features from '~/components/features.vue'
 import VideoPlayer from '~/components/video.vue'
 import AppFeatured from '~/components/app-featured.vue'
+import Products from '~/components/products.vue'
 
 export default {
   components: {
@@ -23,7 +35,11 @@ export default {
     AppInfo,
     Features,
     VideoPlayer,
-    AppFeatured
+    AppFeatured,
+    Products
+  },
+  data() {
+    return {}
   }
 }
 </script>
