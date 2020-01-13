@@ -1,6 +1,11 @@
+/* Settings */
+
+@import '0-settings/colors.scss';
+@import '0-settings/background.scss';
+
 /* Tools */
-@import "1-tools/rem.scss";
-@import "1-tools/spacing.scss";
+@import '1-tools/rem.scss';
+@import '1-tools/spacing.scss';
 
 /* Objects */
 @import './4-objects/button.scss';

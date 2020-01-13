@@ -18,4 +18,15 @@
     font-size: rem(14);
     color: #676666;
   }
+
+  &.mini {
+    width: rem(100);
+    margin: rem(12);
+    height: rem(100);
+    padding: rem(14);
+  }
+
+  img.logo-mini {
+    height: 100%;
+  }
 }

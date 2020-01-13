@@ -6,6 +6,10 @@
     justify-content: space-evenly;
   }
 
+  &.justify-space-between {
+    justify-content: space-between;
+  }
+
   .col-1 {
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
@@ -127,4 +131,19 @@
 
 .app-featured-container {
   padding: rem(20);
+
+  h1.title {
+    text-align: center;
+  }
+
+  .feature {
+    margin: rem(0) rem(0) rem(30) rem(0);
+    h2.title {
+      margin: rem(10) rem(0);
+    }
+    h3.description {
+      font-weight: 200;
+      margin: rem(10) rem(0);
+    }
+  }
 }
