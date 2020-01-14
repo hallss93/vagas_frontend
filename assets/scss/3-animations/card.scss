@@ -7,3 +7,16 @@
     }
   }
 }
+.container.features {
+  .row.justify-evenly {
+    .col-3 {
+      transition: all 2s;
+    }
+  }
+}
+
+.card {
+  &.mini {
+      transition: all 0.7s;
+  }
+}

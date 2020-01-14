@@ -16,8 +16,12 @@
 
     img.logo {
       position: relative;
-      //left: rem(100);
+      left: rem(100);
+      opacity: 0;
     }
+  }
+  #profile-controls {
+    opacity: 0;
   }
 }
 @media screen and (max-width: 768px) {
