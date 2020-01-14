@@ -75,7 +75,7 @@
   }
 }
 .container {
-  margin: rem(30) rem(80);
+  margin: rem(30) rem(40);
 
   &.flex {
     display: flex;
@@ -161,7 +161,8 @@ h1.title {
   font-weight: 600;
 
   &.medium {
-    font-size: rem(28);
+    font-size: rem(24);
+    font-weight: 600;
   }
 }
 

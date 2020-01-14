@@ -1,0 +1,21 @@
+.swiper-body {
+  width: 88%;
+}
+.swiper-slide {
+  padding: rem(10);
+}
+.swiper-button {
+  height: rem(55);
+  width: rem(55);
+  top: rem(150);
+  position: relative;
+  border-radius: 50%;
+  padding: rem(5);
+  border: 2px solid #ccc;
+  cursor: pointer;
+  &.prev {
+      img{
+          transform: rotate(180deg);
+      }
+  }
+}
