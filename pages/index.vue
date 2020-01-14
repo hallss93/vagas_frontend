@@ -10,7 +10,7 @@
     <features />
     <video-player />
     <app-featured />
-    <section class="container">
+    <section id="app-info-r" class="container">
       <app-info
         :reverse="true"
         title="Título"
@@ -18,6 +18,7 @@
       />
     </section>
     <products :products="storesAll" />
+    <app-footer />
   </div>
 </template>
 
@@ -28,6 +29,7 @@ import Features from '~/components/features.vue'
 import VideoPlayer from '~/components/video.vue'
 import AppFeatured from '~/components/app-featured.vue'
 import Products from '~/components/products.vue'
+import AppFooter from '~/components/app-footer.vue'
 
 export default {
   components: {
@@ -36,10 +38,8 @@ export default {
     Features,
     VideoPlayer,
     AppFeatured,
-    Products
-  },
-  data() {
-    return {}
+    Products,
+    AppFooter
   }
 }
 </script>

@@ -20,3 +20,34 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  #navbar {
+    display: block;
+    .nav-container {
+      width: 100%;
+      text-align: center;
+    }
+    #profile-controls {
+      .text-button {
+        display: none;
+      }
+
+      .text-button:first-child {
+        &:after {
+          content: '';
+        }
+        h4 {
+          display: none;
+        }
+        img {
+          display: block;
+
+          position: absolute;
+          top: 8%;
+          right: 8%;
+        }
+        display: block;
+      }
+    }
+  }
+}

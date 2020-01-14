@@ -3,7 +3,7 @@
     <div class="nav-container">
       <img class="logo" src="@/assets/imgs/group-12.png" alt="Image Logo" />
     </div>
-    <div class="nav-container flex justify-end">
+    <div id="profile-controls" class="nav-container flex justify-end">
       <div class="text-button">
         <img src="@/assets/imgs/user.png" alt="Profile" />
         <h4>Entrar</h4>

@@ -10,8 +10,19 @@
     justify-content: space-between;
   }
 
+  &.justify-center {
+    justify-content: center;
+  }
+
   &.flex-reverse {
     flex-direction: row-reverse;
+  }
+
+  &.align-content-center {
+    align-content: center;
+  }
+  &.flex-direction-column {
+    flex-direction: column;
   }
 
   .col-1 {
@@ -98,8 +109,11 @@
     }
 
     .buttons-container {
+      display: flex;
+      justify-content: space-between;
       img {
         height: rem(50);
+        width: 45%;
         margin-right: rem(50);
       }
     }
@@ -136,6 +150,10 @@
 .app-featured-container {
   padding: rem(20);
 
+  .mobile-reverse {
+    flex-direction: row-reverse;
+  }
+
   h1.title {
     text-align: center;
     margin: rem(10) 0 rem(50) 0;
@@ -169,4 +187,78 @@ h1.title {
 h3.description {
   color: #454344;
   font-weight: 200;
+}
+
+@media screen and (max-width: 768px) {
+  #app-info-r {
+    .row.flex-reverse {
+      flex-direction: column-reverse !important;
+    }
+  }
+  .container {
+    margin: rem(20);
+
+    .app-info {
+      margin: 12% rem(0);
+      padding-right: rem(0);
+
+      .buttons-container {
+        display: flex;
+        justify-content: space-between;
+        img {
+          width: 45% !important;
+          height: auto !important;
+          margin: rem(0) !important;
+        }
+      }
+    }
+
+    .image-mockup {
+      height: auto !important;
+      width: 100%;
+    }
+
+    &.features {
+      margin: rem(0) rem(0) !important;
+      padding: rem(40) rem(10) !important;
+      .card {
+        margin-bottom: rem(20);
+      }
+    }
+  }
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .video-container {
+    padding: rem(80) 5%;
+    iframe {
+      height: 300px;
+    }
+  }
+
+  .app-featured-container {
+    .feature {
+      h2.title,
+      h3.description {
+        text-align: center;
+      }
+    }
+  }
+
+  #app-features-texts {
+    padding: rem(0) !important;
+  }
 }

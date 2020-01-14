@@ -6,8 +6,13 @@
         {{ description }}
       </h3>
       <div class="buttons-container">
-        <img src="@/assets/imgs/google-play.png" alt="Play Store" />
         <img
+          src="@/assets/imgs/google-play.png"
+          class="image-mockup"
+          alt="Play Store"
+        />
+        <img
+          class="image-mockup"
           src="@/assets/imgs/download-on-the-app-store-badge-ptbr-rgb-blk-092917.png"
           alt="Play Store"
         />

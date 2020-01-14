@@ -1,7 +1,8 @@
 <template>
   <section class="product-container">
-    <div class="container mb-10">
-      <h1 class="title medium ml-40">Produtos mais acessados.</h1>
+    <div class="mb-10 ml-80 mr-80 row justify-space-between">
+      <h1 class="title medium">Produtos mais acessados.</h1>
+      <h4 class="malachite pointer">Ver todos</h4>
     </div>
     <div class="row justify-space-between">
       <div @click="mySwiper.slidePrev()" class="swiper-button prev">
@@ -81,6 +82,9 @@ export default {
     }
   },
   created() {
+    if (process.browser) {
+      if (document.body.offsetWidth < 768) this.swiperOption.slidesPerView = 2 // eslint-disable-line
+    }
     this.fetchStores()
   },
   methods: {
